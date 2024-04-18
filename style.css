@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header, .footer {
+     flex:  1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+    background-color: #007bff; /* Azul */
+  }
+  
+  .footer {
+    background-color: red;
+  
+  
+  }.body {
+    flex: 3;
+    display: flex;
+    background-color: blueviolet;
+  }
+  
+  .aside {
+    display: flex;
+    background-color: pink;
+    padding: 150px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .main {
+    background-color: blueviolet;
+    padding: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }img{
+   position: fixed;
+   bottom: 20px ;
+   top: 450px;    
+   right: 10px;
+   height: 110px;
+  }
+  
+  
+  
+  
